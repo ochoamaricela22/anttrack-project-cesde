@@ -1,0 +1,68 @@
+-Estructura de ramas
+
+El repositorio tendrá la siguiente estructura:
+
+main → Rama de producción (estable).
+
+develop → Rama de integración y pruebas.
+
+feature/nombre-funcionalidad → Ramas individuales de cada colaborador.
+
+
+
+-Cada colaborador debe:
+
+Crear su rama desde develop
+
+Trabajar únicamente en su rama feature
+
+No hacer commits directos a main
+
+No hacer commits directos a develop
+
+-
+-Flujo de trabajo
+
+Trabajar en la rama feature/*
+
+Hacer commits claros y descriptivos
+
+Subir cambios a la rama propia
+
+Crear un Pull Request (PR) hacia develop
+
+Esperar revisión de al menos 1 compañero
+
+Hacer merge solo después de aprobación
+
+
+- Convención de commits
+
+Formato recomendado:
+
+tipo: descripción corta
+
+Tipos permitidos:
+
+feat: nueva funcionalidad
+
+fix: corrección de errores
+
+chore: tareas internas
+
+docs: documentación
+
+refactor: mejora de código sin cambiar funcionalidad
+
+
+-Paso a producción
+
+Cuando develop esté estable:
+
+Se crea Pull Request de develop → main
+
+Se hace revisión general
+
+Se hace merge a main
+
+Se etiqueta versión (ej: v1.0.0)
