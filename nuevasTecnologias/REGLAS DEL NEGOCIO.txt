@@ -1,0 +1,71 @@
+-Registro de usuarios
+
+El usuario debe registrarse con correo electrónico y contraseña.
+
+El correo debe ser único en el sistema.
+
+El usuario debe iniciar sesión para acceder a sus gastos.
+
+Cada usuario solo puede ver y gestionar su propia información.
+
+-Registro de gastos hormiga
+
+El usuario puede registrar un gasto con:
+
+Descripción
+
+Monto
+
+Categoría
+
+Fecha
+
+El monto debe ser mayor a 0.
+
+La fecha no puede ser futura.
+
+Todos los gastos deben estar asociados a un usuario.
+
+- Categorías
+
+El sistema puede tener categorías predefinidas (Ej: comida, transporte, ocio, suscripciones).
+
+El usuario puede crear nuevas categorías personalizadas.
+
+No se permiten categorías duplicadas con el mismo nombre para el mismo usuario.
+
+-Visualización y control
+
+El usuario puede:
+
+Ver listado de gastos.
+
+Filtrar por fecha.
+
+Filtrar por categoría.
+
+El sistema debe mostrar el total gastado en un rango de fechas.
+
+El sistema debe mostrar el total por categoría.
+
+-Edición y eliminación
+
+El usuario puede editar sus gastos.
+
+El usuario puede eliminar sus gastos.
+
+No se pueden modificar gastos de otros usuarios.
+
+-Alertas y control financiero NUEVAS TECNOLOGIAS
+
+El usuario puede definir un presupuesto mensual.
+
+El sistema debe alertar cuando el usuario supere el presupuesto definido.
+
+Seguridad
+
+Las contraseñas deben almacenarse encriptadas.
+
+Se debe usar autenticación (por ejemplo JWT si es web API).
+
+No se permite acceso a endpoints sin autenticación.
